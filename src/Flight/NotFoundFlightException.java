@@ -9,9 +9,9 @@ package Flight;
  *
  * @author Joy
  */
-public class NotFoundFlight extends Exception{
+public class NotFoundFlightException extends Exception{
 
-    public NotFoundFlight(String text) {
+    public NotFoundFlightException(String text) {
         super(text);
     }
     
