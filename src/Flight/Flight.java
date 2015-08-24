@@ -13,15 +13,15 @@ import java.text.DateFormat;
  */
 public class Flight{
 
-    String to;
-    String from;
-    DateFormat departTime;
-    DateFormat departDate;
-    DateFormat returnDate;
-    DateFormat returnTime;
-    Boolean destination;
-    Boolean directFight;
-    int travellers;
+    private String to;
+    private String from;
+    private DateFormat departTime;
+    private DateFormat departDate;
+    private DateFormat returnDate;
+    private DateFormat returnTime;
+    private Boolean destination;
+    private Boolean directFight;
+    private int travellers;
 
     public void setTo(String to) {
         this.to = to;
