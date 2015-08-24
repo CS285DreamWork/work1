@@ -23,6 +23,56 @@ public class Flight{
     private Boolean directFight;
     private int travellers;
 
+    public Flight(String to, String from, DateFormat departTime, DateFormat departDate, DateFormat returnDate, DateFormat returnTime, Boolean destination, Boolean directFight, int travellers) {
+        this.to = to;
+        this.from = from;
+        this.departTime = departTime;
+        this.departDate = departDate;
+        this.returnDate = returnDate;
+        this.returnTime = returnTime;
+        this.destination = destination;
+        this.directFight = directFight;
+        this.travellers = travellers;
+    }
+
+    
+    
+    public String getTo() {
+        return to;
+    }
+
+    public String getFrom() {
+        return from;
+    }
+
+    public DateFormat getDepartTime() {
+        return departTime;
+    }
+
+    public DateFormat getDepartDate() {
+        return departDate;
+    }
+
+    public DateFormat getReturnDate() {
+        return returnDate;
+    }
+
+    public DateFormat getReturnTime() {
+        return returnTime;
+    }
+
+    public Boolean getDestination() {
+        return destination;
+    }
+
+    public Boolean getDirectFight() {
+        return directFight;
+    }
+
+    public int getTravellers() {
+        return travellers;
+    }
+
     public void setTo(String to) {
         this.to = to;
     }
@@ -58,5 +108,7 @@ public class Flight{
     public void setTravellers(int travellers) {
         this.travellers = travellers;
     }
+
+
     
 }
